@@ -8,3 +8,8 @@ Usage:
 ```bash
 install-java-cert.sh <domain> <cacerts_file>
 ```
+
+If you're feeling dangerous, just curl the shell script and pipe it to bash:
+```bash
+curl "https://raw.githubusercontent.com/rtfarte/utility-scripts/master/install-java-cert.sh" | bash -s -- "domain" cacerts
+```
